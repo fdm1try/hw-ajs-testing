@@ -1,0 +1,106 @@
+.credit-card-widget-img-list {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.credit-card-widget-img {
+    width: 60px;
+    height: 40px;
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.credit-card-widget-img-mir {
+    background-image: url(../../img/mir-mono.svg);
+}
+
+.credit-card-widget-img-mir.active {
+    background-image: url(../../img/mir.svg);
+}
+
+.credit-card-widget-img-visa {
+    background-image: url(../../img/visa-mono.svg);
+}
+
+.credit-card-widget-img-visa.active {
+    background-image: url(../../img/visa.svg);
+}
+
+.credit-card-widget-img-mastercard {
+    background-image: url(../../img/mastercard-mono.svg);
+}
+
+.credit-card-widget-img-mastercard.active {
+    background-image: url(../../img/mastercard.svg);
+}
+
+.credit-card-widget-img-amex {
+    background-image: url(../../img/american-express-mono.svg);
+}
+
+.credit-card-widget-img-amex.active {
+    background-image: url(../../img/american-express.svg);
+}
+
+.credit-card-widget-img-discover {
+    background-image: url(../../img/discover-mono.svg);
+}
+
+.credit-card-widget-img-discover.active {
+    background-image: url(../../img/discover.svg);
+}
+
+.credit-card-widget-img-jcb {
+    background-image: url(../../img/jcb-mono.svg);
+}
+
+.credit-card-widget-img-jcb.active {
+    background-image: url(../../img/jcb.svg);
+}
+
+.credit-card-widget-img-diners {
+    background-image: url(../../img/diners-mono.svg);
+}
+
+.credit-card-widget-img-diners.active {
+    background-image: url(../../img/diners.svg);
+}
+
+.credit-card-widget-form {
+    display: flex;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.credit-card-widget-number_input, .credit-card-widget-validate_btn {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+.credit-card-widget-number_input {
+    width: 250px;    
+    border: 1px solid gray;
+}
+
+.credit-card-widget-number_input.valid {
+    background-color: rgb(128, 205, 128);
+}
+
+.credit-card-widget-number_input.invalid {
+    background-color: rgb(187, 97, 97);
+}
+
+.credit-card-widget-validate_btn {
+    background-color: rgb(43, 179, 43);
+    color: white;
+    border: none;
+}
+
+.credit-card-widget-validate_btn:hover {
+    background-color: rgb(70, 192, 70);
+    cursor: pointer;
+}
