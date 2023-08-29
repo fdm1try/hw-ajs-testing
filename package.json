@@ -6,7 +6,7 @@
     "scripts": {
         "start": "webpack-dev-server --mode development",
         "build": "webpack --mode production",
-        "deploy": "push-dir --dir dist --branch=gh-pages",
+        "deploy": "push-dir --force --cleanup --dir dist --branch=gh-pages",
         "lint": "eslint .",
         "test": "jest --testPathPattern=src/.*",
         "e2e-test": "jest --config=e2e/jest.config.js --testPathPattern=e2e/.*",
